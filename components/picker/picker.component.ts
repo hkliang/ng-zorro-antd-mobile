@@ -172,6 +172,7 @@ export class PickerComponent implements OnInit, AfterViewInit, OnDestroy {
         });
       });
     });
+    reloadPicker();
   }
 
   reloadPicker() {
